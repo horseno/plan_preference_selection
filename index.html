@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select the better plan</title>
+    <script>
+        let currentIndex = 0;
+        let total = 0;
+
+        function loadRow() {
+            fetch(`/get_row/${currentIndex}`)
+                .then(res => res.json())
+                .then(data => {
+                    if (data.done) {
+                        document.body.innerHTML = `<h1>Selection Complete</h1><pre>${JSON.stringify(data.selections, null, 2)}</pre>`;
+                        return;
+                    }
+                    document.getElementById("conversation").innerText = data.conversation;
+                    document.getElementById("imageA").src = data.imageA;
+                    document.getElementById("imageB").src = data.imageB;
+                });
+        }
+
+        function selectChoice(choice) {
+            fetch("/select", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ index: currentIndex, choice: choice })
+            }).then(() => {
+                currentIndex++;
+                if (currentIndex < total) {
+                    loadRow();
+                } else {
+                    alert("Selections complete!");
+                }
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            total = parseInt("{{ total }}");
+            loadRow();
+        });
+    </script>
+</head>
+<body>
+    <h1>Image Selection</h1>
+    <p id="conversation"></p>
+    <div>
+        <img id="imageA" src="" alt="Plan A" style="width: 300px; height: auto;">
+        <button onclick="selectChoice('A')">Select A</button>
+    </div>
+    <div>
+        <img id="imageB" src="" alt="Plan B" style="width: 300px; height: auto;">
+        <button onclick="selectChoice('B')">Select B</button>
+    </div>
+</body>
+</html>
+
