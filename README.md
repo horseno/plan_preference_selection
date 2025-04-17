@@ -4,22 +4,24 @@ Annotation tool to collect preference of task plans with visulizations
 # Setup:
 
 1. Setup virtual env 
-    ``` 
-    conda create --name annotation python=3.9 # first time only
+    ```
+    #first time only
+    conda create --name annotation python=3.9
     conda activate annotation
     ```
-
-2. Install required packages
-    ```
-    pip install -r requirements.txt #first time only 
-    ```
-
-3. clone this repo
+2. clone this repo
     ```
     # first time only
     git clone https://github.com/horseno/plan_preference_selection.git 
     cd plan_preference_select
     ```
+    
+3. Install required packages
+    ```
+    pip install -r requirements.txt #first time only 
+    ```
+
+
 
 4. Make sure the source csv file is in the `input` folder and modify environment vairable to point to the source file (defaults to input/pilot.csv)
 ```export DATA_FILE=input/pilot.csv```
