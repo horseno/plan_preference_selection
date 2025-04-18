@@ -13,7 +13,7 @@ Annotation tool to collect preference of task plans with visulizations
     ```
     # first time only
     git clone https://github.com/horseno/plan_preference_selection.git 
-    cd plan_preference_select
+    cd plan_preference_selection
     ```
     
 3. Install required packages
