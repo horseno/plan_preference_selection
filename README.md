@@ -24,7 +24,7 @@ Annotation tool to collect preference of task plans with visulizations
 
 
 4. Make sure the source csv file is in the `input` folder and modify environment vairable to point to the source file (defaults to input/pilot.csv)
-```export DATA_FILE=input/pilot.csv```
+```export DATA_FILE=input/annotation_4_30.csv```
 
 5. Start the flask app
 ```python app.py```
