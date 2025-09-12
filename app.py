@@ -10,7 +10,7 @@ app = Flask(__name__)
 ### modify input data file as needed
 
 DATA_FILE = os.environ.get('DATA_FILE', 'input/pilot.csv')
-
+SHOW_REWRITE = True
 
 input_name = os.path.basename(DATA_FILE).split('.')[0]
 
@@ -34,7 +34,7 @@ selections = []
 
 @app.route("/")
 def index():
-    return render_template("index.html", total=len(df))
+    return render_template("index.html", total=len(df), show_rewrite=SHOW_REWRITE)
 
 
 @app.route("/get_row/<int:row_id>")

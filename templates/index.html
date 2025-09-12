@@ -136,6 +136,7 @@
     <script>
         let currentIndex = 0;
         let total = 0;
+        let showRewrite = {{ 'true' if show_rewrite else 'false' }};
         function toggleDiv() {
             var div = document.getElementById("rubric");
             if (div.style.display === "none" || div.style.display === "") {
@@ -193,6 +194,14 @@
                             document.getElementById("diagramB").innerHTML =
                                 svg;
                         });
+
+                        if (showRewrite) {
+                            document.getElementById("rewriteA").innerText = data.rewriteA;
+                            document.getElementById("rewriteB").innerText = data.rewriteB;
+                        } else {
+                            document.getElementById("rewriteA").innerText = '';
+                            document.getElementById("rewriteB").innerText = '';
+                        }
                 });
         }
 
