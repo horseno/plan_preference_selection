@@ -16,7 +16,7 @@ input_name = os.path.basename(DATA_FILE).split('.')[0]
 
 user_name = os.environ.get("USER", os.environ.get("USERNAME"))
 
-SELECTIONS_FILE = f"{input_name}_selections_{user_name}.csv"
+SELECTIONS_FILE = f"aug_{input_name}_selections_{user_name}.csv"
 
 out_path = "output"
 
@@ -55,12 +55,21 @@ def get_row(row_id):
     diagramA = utils.convert_to_markdown(row["planA"])
     diagramB = utils.convert_to_markdown(row["planB"])
 
+    if row["shuffle_key"] == "A":
+        rewriteA = row["rewrite1"]
+        rewriteB = row["rewrite2"]
+    else: 
+        rewriteA = row["rewrite2"]
+        rewriteB = row["rewrite1"]
+
     return jsonify(
         {
             "index": row_id,
             "conversation": conversation_list,
             "imageA": diagramA,
             "imageB": diagramB,
+            "rewriteA": rewriteA,
+            "rewriteB": rewriteB,
         }
     )
 
