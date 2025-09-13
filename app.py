@@ -62,6 +62,22 @@ def get_row(row_id):
         rewriteA = row["rewrite2"]
         rewriteB = row["rewrite1"]
 
+    conv_id = row['conv_id']
+    rewrite_df = pd.read_json('input/aug_rewrite.json')
+    matches = rewrite_df[rewrite_df["conv_id"] == conv_id]
+
+    if not matches.empty:
+        def get_rewrite_text(rtype):
+            if rtype == "dummy":
+                return rtype
+            match = matches[matches["rewrite_type"] == rtype]
+            if not match.empty:
+                return f"{rtype}: {match.iloc[0]['rewrite']}"
+            return rtype 
+
+        rewriteA = get_rewrite_text(rewriteA)
+        rewriteB = get_rewrite_text(rewriteB)
+
     return jsonify(
         {
             "index": row_id,
