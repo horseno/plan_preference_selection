@@ -2,706 +2,301 @@
   {
     "conv_id":750,
     "rewrite_type":"dummy",
-    "rewrite":"USER: I'm looking for an easy dinner recipe. Can you help me?\nAGENT: Sure! Do you have any dietary preferences or restrictions?\nUSER: I want something gluten-free. Oh, and by the way, it needs to be ready before the game starts\u2014it's movie night.\nAGENT: Got it. How much time can you spend on preparation before the game?\nUSER: Maybe around half an hour\u2014or less would be ideal."
+    "rewrite":"USER: I want to book a flight to Tokyo.\nAGENT: Do you have a preferred airline or time?\nUSER: I need to bring my surfboard"
   },
   {
     "conv_id":750,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Create a gluten-free dinner recipe that can be prepared in 30 minutes or less for a movie night."
-  },
-  {
-    "conv_id":750,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Find a gluten-free dinner recipe that can be prepared in 30 minutes or less."
-  },
-  {
-    "conv_id":751,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I need help with debugging a Python script that's causing errors in my application.\nAGENT: Can you describe the errors or provide any error messages you're encountering?\nUSER: Sure, I also want to ensure the final script can handle large data sets efficiently.\nAGENT: Are there specific parts of the script responsible for processing the data that you suspect might be inefficient?\nUSER: Yes, especially the part where it reads and processes the CSV files."
-  },
-  {
-    "conv_id":751,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Summarize a conversation where a user seeks assistance with debugging a Python script that is causing errors and needs optimization for handling large data sets, particularly in the section that reads and processes CSV files."
-  },
-  {
-    "conv_id":751,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Debug a Python script to resolve errors and optimize it for efficient handling of large data sets, particularly in reading and processing CSV files."
-  },
-  {
-    "conv_id":752,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm looking to book a flight from New York to Los Angeles next week.\nAGENT: What day are you planning to depart?\nUSER: I prefer an early morning flight; also, I'll need in-flight Wi-Fi because I'll be working on some reports.\nAGENT: Do you have any specific requirements regarding the airline?\nUSER: Comfort is key since I'll be prepping for a client meeting during the flight."
-  },
-  {
-    "conv_id":752,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a flight booking from New York to Los Angeles for next week, ensuring an early morning departure with in-flight Wi-Fi and prioritizing comfort for work preparation."
-  },
-  {
-    "conv_id":752,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book an early morning flight from New York to Los Angeles next week with in-flight Wi-Fi and comfortable seating for work purposes."
-  },
-  {
-    "conv_id":753,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm looking to book a restaurant for a dinner meeting on Friday.\nAGENT: Do you have a cuisine or location preference?\nUSER: Actually, it's important that the place has good Wi-Fi.\nAGENT: Do you also need meeting facilities or just reliable internet?\nUSER: A setting with outlets at the table would be perfect."
-  },
-  {
-    "conv_id":753,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a dinner meeting at a restaurant with good Wi-Fi and table outlets for Friday."
-  },
-  {
-    "conv_id":753,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book a restaurant with good Wi-Fi and table outlets for a dinner meeting on Friday."
-  },
-  {
-    "conv_id":754,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I need to schedule a physical therapy session.\nAGENT: Do you have a preferred time or day for the appointment?\nUSER: I'd prefer afternoons. Also, I need a session that could help with my back pain.\nAGENT: Are you currently experiencing any specific discomfort, or is this for ongoing pain management?\nUSER: It's mostly for pain management, especially since I may have to start a new workout routine soon."
-  },
-  {
-    "conv_id":754,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Schedule a physical therapy session in the afternoon for back pain management, considering the user's upcoming new workout routine."
-  },
-  {
-    "conv_id":754,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Schedule a physical therapy session in the afternoon for back pain management in preparation for a new workout routine."
-  },
-  {
-    "conv_id":755,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I need some help figuring out what to cook for dinner tonight.\nAGENT: Are there any specific ingredients you have on hand or dietary restrictions to consider?\nUSER: I want to make sure it's something quick because I still need to finish a work report.\nAGENT: Do you have a particular cuisine in mind that fits both being quick and convenient while working on your report?\nUSER: Maybe something Italian, but it needs to be easy enough to not distract me from my tasks."
-  },
-  {
-    "conv_id":755,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a quick and easy Italian dinner that allows for minimal distraction from work tasks, considering available ingredients and any dietary restrictions."
-  },
-  {
-    "conv_id":755,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Plan a quick and easy Italian dinner that allows for minimal distraction from completing a work report."
-  },
-  {
-    "conv_id":756,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm trying to automate some reports using Python.\nAGENT: What kind of data are you pulling for these reports?\nUSER: Mostly sales data, but I need it to integrate my local weather forecasts.\nAGENT: Does the weather data come from a specific API or service?\nUSER: Yes, I'm using the OpenWeather API to enhance the sales analysis. Let's focus on how these two datasets can be merged effectively."
-  },
-  {
-    "conv_id":756,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a method to automate sales reports using Python by integrating sales data with local weather forecasts from the OpenWeather API."
-  },
-  {
-    "conv_id":756,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Automate sales reports by integrating data from the OpenWeather API using Python."
-  },
-  {
-    "conv_id":757,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I need to book a flight to New York City.\nAGENT: Would you like to fly economy, business, or first class?\nUSER: Economy is fine, but I need to make sure my cat can travel with me in the cabin.\nAGENT: Are you looking for any particular airline that allows pets?\nUSER: Yes, and I prefer a window seat near the front to make it easier to get off quickly."
-  },
-  {
-    "conv_id":757,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a flight booking to New York City in economy class with a pet-friendly airline, ensuring a window seat near the front of the cabin."
-  },
-  {
-    "conv_id":757,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book an economy flight to New York City with a pet-friendly airline, ensuring a window seat near the front of the cabin."
-  },
-  {
-    "conv_id":758,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm looking for a restaurant to host a dinner meeting.\nAGENT: Do you have a preference for cuisine or location?\nUSER: It should cater to vegetarians, but I'll also need a projector for a presentation.\nAGENT: Are you looking for a private dining room with AV equipment then?\nUSER: Yes, and close to our main office downtown. That would be ideal."
-  },
-  {
-    "conv_id":758,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Identify a restaurant with vegetarian options, a private dining room, AV equipment, and a location near the downtown main office for hosting a dinner meeting."
-  },
-  {
-    "conv_id":758,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Find a restaurant near the downtown main office with a private dining room, vegetarian options, and AV equipment for a dinner meeting."
-  },
-  {
-    "conv_id":759,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I need help planning a balanced diet to manage my blood pressure.\nAGENT: Do you know if there are any specific foods you need to avoid?\nUSER: Mostly processed foods. And also, I want to incorporate more exercise into my routine.\nAGENT: Would you prefer a workout that you can do at home or are you considering joining a gym?\nUSER: Home workouts would be better since I need to make it part of my daily schedule."
-  },
-  {
-    "conv_id":759,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Create a balanced diet plan to manage blood pressure, avoiding processed foods, and design a home workout routine to incorporate into a daily schedule."
-  },
-  {
-    "conv_id":759,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Plan a balanced diet to manage blood pressure and incorporate home workouts into a daily routine."
-  },
-  {
-    "conv_id":760,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to try making homemade pasta.\nAGENT: Do you have a pasta machine or would you roll it by hand?\nUSER: I don't have a machine. Also, I'd like it to match the sauce I always order at my favorite Italian place.\nAGENT: Do you remember what kind of sauce that is?\nUSER: It's creamy, but with mushrooms. I think they use white wine in it.\nAGENT: Would you like me to suggest a pasta shape that pairs well with that sauce?\nUSER: Yes, and ideally it shouldn't take too long since I'll make it after work."
-  },
-  {
-    "conv_id":760,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a homemade pasta-making session without a machine, selecting a pasta shape that pairs well with a creamy mushroom and white wine sauce, ensuring the process is time-efficient for after-work preparation."
-  },
-  {
-    "conv_id":760,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Plan to make homemade pasta by hand that pairs well with a creamy mushroom and white wine sauce, ensuring it is quick to prepare."
-  },
-  {
-    "conv_id":761,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to build a website for my photography portfolio.\nAGENT: Do you have a preferred framework or language in mind?\nUSER: Not really, but it has to let me sell prints directly.\nAGENT: So you'll need e-commerce integration. Do you prefer a ready-made solution like Shopify, or coding it yourself?\nUSER: I'd like to code it myself\u2014it will also help me practice backend development.\nAGENT: Got it. Do you already have hosting arranged?\nUSER: Not yet, I was hoping to figure that out once I know the technical stack."
-  },
-  {
-    "conv_id":761,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a photography portfolio website with e-commerce integration for selling prints, using a custom-coded solution to practice backend development, and determine the technical stack before arranging hosting."
-  },
-  {
-    "conv_id":761,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Build a photography portfolio website with e-commerce integration to sell prints directly, using custom code for backend development."
-  },
-  {
-    "conv_id":762,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to book a flight to Paris.\nAGENT: Do you have a preferred travel date?\nUSER: Sometime in March. Also, I need space for my cello in the cabin.\nAGENT: Are you looking for an airline with special instrument accommodations?\nUSER: Yes. And ideally, I'd like to book a hotel that's close to the music venue where I'll perform.\nAGENT: Do you know which district in Paris the venue is in?\nUSER: It's near Montmartre, so somewhere around there would be best."
-  },
-  {
-    "conv_id":762,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a flight booking to Paris in March with cabin space for a cello, and arrange accommodation near Montmartre for a music performance."
-  },
-  {
-    "conv_id":762,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Plan a trip to Paris in March, including a flight with cabin space for a cello and a hotel near Montmartre."
-  },
-  {
-    "conv_id":763,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to book a restaurant for a birthday celebration.\nAGENT: How many guests will be attending?\nUSER: Around 12, and I'd also like space for a small live band.\nAGENT: Do you need a private dining area then?\nUSER: Yes, and ideally the restaurant should allow us to bring our own cake.\nAGENT: Do you have a preference for cuisine?\nUSER: Something festive\u2014maybe Mexican or Spanish would be great."
-  },
-  {
-    "conv_id":763,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a restaurant booking for a birthday celebration with space for 12 guests and a small live band, ensuring a private dining area and permission to bring an external cake, with a preference for Mexican or Spanish cuisine."
-  },
-  {
-    "conv_id":763,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book a restaurant with a private dining area for 12 guests, accommodating a small live band, allowing an external cake, and offering Mexican or Spanish cuisine for a birthday celebration."
-  },
-  {
-    "conv_id":764,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to start running to improve my fitness.\nAGENT: Do you already have a running schedule in mind?\nUSER: Not yet. Also, I need tips for preventing knee pain since I had issues before.\nAGENT: Would you like me to suggest warm-up routines and strength exercises to help with that?\nUSER: Yes, and I'd also like advice on diet since I'm aiming to lose some weight.\nAGENT: Got it. Are you interested in a structured meal plan or general guidelines?\nUSER: General guidelines should be fine\u2014I don't want something too restrictive."
-  },
-  {
-    "conv_id":764,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Create a running plan for fitness improvement, including warm-up routines and strength exercises to prevent knee pain, and provide general dietary guidelines for weight loss."
-  },
-  {
-    "conv_id":764,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Create a running plan with warm-up routines, strength exercises to prevent knee pain, and general dietary guidelines for weight loss."
-  },
-  {
-    "conv_id":765,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to learn how to make sushi at home.\nAGENT: Do you already have sushi rice and seaweed sheets?\nUSER: Not yet. I'm also wondering what kind of knife I need.\nAGENT: A sharp chef's knife usually works, though sushi knives are ideal. Do you plan to use raw fish?\nUSER: Maybe later, but I'd like to start with vegetarian rolls first.\nAGENT: Would you like recommendations for fillings?\nUSER: Yes, especially ones that make the rolls look colorful for presentation."
-  },
-  {
-    "conv_id":765,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Create a plan for learning to make sushi at home, including acquiring sushi rice, seaweed sheets, and a sharp chef's knife or sushi knife, starting with vegetarian rolls, and selecting colorful fillings for presentation."
-  },
-  {
-    "conv_id":765,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Plan a home sushi-making session focusing on vegetarian rolls with colorful fillings, and acquire necessary ingredients and a suitable knife."
-  },
-  {
-    "conv_id":766,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to learn Java.\nAGENT: Great. Do you want to focus on desktop apps, web development, or something else?\nUSER: I'm not sure. But I want it to help with Android development later.\nAGENT: So mobile development is the long-term goal?\nUSER: Yes. And I'd like to start with basics that make the transition easier.\nAGENT: Do you already have Android Studio installed?\nUSER: Not yet\u2014I was hoping you could guide me once I cover the basics."
-  },
-  {
-    "conv_id":766,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a learning path for Java that starts with the basics and gradually transitions into Android development, ensuring guidance on installing and using Android Studio when ready."
-  },
-  {
-    "conv_id":766,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Plan a learning path for Java basics with a focus on easing the transition to Android development."
-  },
-  {
-    "conv_id":767,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I need to book a flight to Chicago.\nAGENT: Do you have specific dates in mind?\nUSER: Yes, early April. And I'll need special meals since I'm vegan.\nAGENT: Okay, do you have an airline preference that offers reliable vegan options?\nUSER: Not really, but I want the shortest travel time possible.\nAGENT: Would you prefer direct flights only then?\nUSER: Yes, ideally nonstop."
-  },
-  {
-    "conv_id":767,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a flight booking to Chicago in early April with special vegan meals, prioritizing nonstop flights for the shortest travel time, without a specific airline preference."
-  },
-  {
-    "conv_id":767,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book a nonstop flight to Chicago in early April with vegan meal options."
-  },
-  {
-    "conv_id":768,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm looking for a restaurant for an anniversary dinner.\nAGENT: Do you have a preference for cuisine?\nUSER: Something fancy. Also, they need to have a piano since I'd like to play a song.\nAGENT: So live music or at least a piano on site?\nUSER: Exactly. And I'd prefer it to have a quiet, intimate atmosphere.\nAGENT: Do you want me to search for fine dining places downtown?\nUSER: Yes, that sounds perfect."
-  },
-  {
-    "conv_id":768,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Identify a fine dining restaurant downtown with a piano on site and a quiet, intimate atmosphere for an anniversary dinner."
-  },
-  {
-    "conv_id":768,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Find a fine dining restaurant downtown with a piano and a quiet, intimate atmosphere for an anniversary dinner."
-  },
-  {
-    "conv_id":769,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to start meditating regularly.\nAGENT: Do you have a specific method in mind, like mindfulness or guided meditation?\nUSER: Not yet. I just know I get stressed easily at work.\nAGENT: Would you prefer shorter sessions during breaks or longer sessions at home?\nUSER: Short sessions first. Also, I want to track my progress somehow.\nAGENT: Would using an app to log your sessions work?\nUSER: Yes, that would help me stay consistent."
-  },
-  {
-    "conv_id":769,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Create a meditation plan incorporating short sessions during work breaks and utilize an app to log and track progress for stress management."
-  },
-  {
-    "conv_id":769,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Plan a routine for regular short meditation sessions during breaks and use an app to track progress."
-  },
-  {
-    "conv_id":770,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to make a dessert for a dinner party.\nAGENT: Do you have a preference for baked or no-bake desserts?\nUSER: Not sure. But I'd like it to look impressive on the table.\nAGENT: Would you like a layered dessert or something individually plated?\nUSER: Layered sounds better. Also, it should be light since the main course will be heavy.\nAGENT: Do you want it to include fruit?\nUSER: Yes, fruit would make it refreshing."
-  },
-  {
-    "conv_id":770,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a layered, light, and impressive-looking dessert that includes fruit for a dinner party."
-  },
-  {
-    "conv_id":770,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Create a light, layered dessert with fruit that looks impressive for a dinner party."
-  },
-  {
-    "conv_id":771,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to learn how to use Git for version control.\nAGENT: Do you have Git installed on your computer?\nUSER: Not yet. Also, I want to practice collaborating like in a real team.\nAGENT: Would you like to simulate that with a shared repository?\nUSER: Yes, that would be helpful. I want to practice pull requests and branching.\nAGENT: Do you have any sample projects to use?\nUSER: Not yet, but I can create one just for practice."
-  },
-  {
-    "conv_id":771,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Create a plan to teach the user how to use Git for version control, including installing Git, simulating team collaboration with a shared repository, and practicing pull requests and branching using a sample project."
-  },
-  {
-    "conv_id":771,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Learn how to use Git for version control and practice collaborating with a shared repository by simulating pull requests and branching."
-  },
-  {
-    "conv_id":772,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to book a flight to San Francisco.\nAGENT: Do you know what dates you want to travel?\nUSER: Late May. Also, I want to make sure I can stream a movie during the flight.\nAGENT: So in-flight Wi-Fi is a must?\nUSER: Yes. And preferably an airline with comfortable legroom.\nAGENT: Would you prefer premium economy or regular economy?\nUSER: Premium economy sounds like a good option."
-  },
-  {
-    "conv_id":772,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a flight booking to San Francisco for late May, ensuring the flight offers in-flight Wi-Fi and comfortable legroom, with a preference for premium economy seating."
-  },
-  {
-    "conv_id":772,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book a premium economy flight to San Francisco in late May with in-flight Wi-Fi and comfortable legroom."
-  },
-  {
-    "conv_id":773,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to book a restaurant for my parents' anniversary.\nAGENT: Do you have a preference for cuisine?\nUSER: Italian would be nice. Also, they should be able to accommodate a slideshow of family photos.\nAGENT: So you'd need a private area with a screen or projector?\nUSER: Exactly. And the restaurant should allow some decoration for the table.\nAGENT: Do you prefer downtown or a quieter location?\nUSER: Downtown works, since most guests live nearby."
-  },
-  {
-    "conv_id":773,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a reservation at an Italian restaurant in a downtown location that offers a private area with a screen or projector for a slideshow and allows table decorations for a parents' anniversary celebration."
-  },
-  {
-    "conv_id":773,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book an Italian restaurant in downtown with a private area for a slideshow and table decorations for a parents' anniversary."
-  },
-  {
-    "conv_id":774,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to start eating healthier.\nAGENT: Do you have specific goals like weight loss or more energy?\nUSER: Mostly more energy. Also, I'd like meals that are easy to prep for work.\nAGENT: Do you want quick recipes or pre-prepped options?\nUSER: Quick recipes are better. And maybe some snack ideas too.\nAGENT: Do you prefer vegetarian options or include meat?\nUSER: Vegetarian mostly, but some fish is fine."
-  },
-  {
-    "conv_id":774,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Create a meal plan focusing on quick, easy-to-prep vegetarian recipes with some fish options, aimed at increasing energy levels, and include snack ideas."
-  },
-  {
-    "conv_id":774,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Create a meal plan with quick, easy-to-prep vegetarian and fish recipes and snack ideas to boost energy."
-  },
-  {
-    "conv_id":775,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to learn how to bake sourdough bread.\nAGENT: Do you already have a starter?\nUSER: Not yet. Also, I want to try shaping it like I saw in a YouTube video.\nAGENT: Do you recall which style it was\u2014boule, batard, or something else?\nUSER: I think it was a batard. And I want to get the same crusty texture.\nAGENT: Do you have a Dutch oven?\nUSER: No, but I'm willing to buy one."
-  },
-  {
-    "conv_id":775,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a sourdough bread baking session, including acquiring a starter and a Dutch oven, and focus on shaping the bread as a batard with a crusty texture."
-  },
-  {
-    "conv_id":775,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Learn how to bake sourdough bread shaped as a batard with a crusty texture, including acquiring a starter and a Dutch oven."
-  },
-  {
-    "conv_id":776,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to learn SQL.\nAGENT: Do you want to focus on queries, database design, or something else?\nUSER: Queries first. Also, I'd like to practice with real-world data.\nAGENT: Would you like me to suggest public datasets?\nUSER: Yes, that would help. I want something business-related like sales or marketing.\nAGENT: Do you already have a database system installed?\nUSER: Not yet, but I can set up MySQL or PostgreSQL."
-  },
-  {
-    "conv_id":776,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Create a learning plan for SQL focusing on queries, incorporating practice with real-world business-related datasets such as sales or marketing, and suggest public datasets. Include guidance on setting up a database system like MySQL or PostgreSQL."
-  },
-  {
-    "conv_id":776,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Plan a learning path for SQL focusing on queries using real-world business-related datasets, and set up MySQL or PostgreSQL for practice."
-  },
-  {
-    "conv_id":777,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I need to book a flight to Seattle.\nAGENT: What dates are you planning to travel?\nUSER: Early June. And I need to bring my dog with me.\nAGENT: Do you want airlines that allow pets in the cabin?\nUSER: Yes, exactly. Also, I'd like an aisle seat near the front.\nAGENT: Would you prefer nonstop flights only?\nUSER: Yes, that would be ideal."
-  },
-  {
-    "conv_id":777,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a flight booking to Seattle in early June with a pet-friendly airline that allows pets in the cabin, ensuring an aisle seat near the front on a nonstop flight."
-  },
-  {
-    "conv_id":777,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book a nonstop flight to Seattle in early June with an aisle seat near the front, allowing a dog in the cabin."
-  },
-  {
-    "conv_id":778,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to book a restaurant for a graduation dinner.\nAGENT: How many people will attend?\nUSER: About 20. Also, it should allow a slideshow or speeches.\nAGENT: Do you need a private room then?\nUSER: Yes. And preferably somewhere with a buffet option.\nAGENT: Do you have a cuisine in mind?\nUSER: Not really, but it should appeal to both kids and adults."
-  },
-  {
-    "conv_id":778,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a restaurant booking for a graduation dinner for approximately 20 people, ensuring the venue allows for a slideshow or speeches, includes a private room, offers a buffet option, and provides a cuisine that appeals to both kids and adults."
-  },
-  {
-    "conv_id":778,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book a restaurant with a private room for a graduation dinner for 20 people, allowing a slideshow or speeches, with a buffet option suitable for both kids and adults."
-  },
-  {
-    "conv_id":779,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to start strength training.\nAGENT: Do you have access to a gym or will you train at home?\nUSER: At home. Also, I want to make sure I don't hurt my back.\nAGENT: Would you like me to suggest beginner-friendly equipment?\nUSER: Yes, and also some core-strengthening routines.\nAGENT: Do you want a weekly plan?\nUSER: Yes, something gradual would help."
-  },
-  {
-    "conv_id":779,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Create a gradual, weekly home-based strength training plan with beginner-friendly equipment and core-strengthening routines, ensuring back safety."
-  },
-  {
-    "conv_id":779,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Create a gradual, beginner-friendly home strength training plan with core-strengthening routines and equipment suggestions to prevent back injury."
-  },
-  {
-    "conv_id":780,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to make soup tonight.\nAGENT: Do you have specific ingredients already?\nUSER: I've got chicken, but I also want it to feel like the soup my grandma made.\nAGENT: Do you remember any particular flavors from hers?\nUSER: It had lots of herbs, maybe parsley or dill. And noodles too.\nAGENT: Would you like it to be light or hearty?\nUSER: Hearty, so it can be a full dinner."
-  },
-  {
-    "conv_id":780,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a hearty chicken soup with herbs such as parsley or dill and include noodles to evoke a nostalgic flavor reminiscent of a traditional family recipe."
-  },
-  {
-    "conv_id":780,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Create a hearty chicken soup with herbs and noodles for dinner."
-  },
-  {
-    "conv_id":781,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to build a mobile app for budgeting.\nAGENT: Do you have a platform in mind\u2014iOS, Android, or both?\nUSER: Both, but I'd like to start with Android. Also, it should support offline mode.\nAGENT: Would you prefer a native app or cross-platform framework?\nUSER: Maybe cross-platform for now. And it should sync later when online.\nAGENT: Do you need cloud storage integration?\nUSER: Yes, eventually."
-  },
-  {
-    "conv_id":781,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a cross-platform mobile app for budgeting, starting with Android, that supports offline mode and syncs data when online, with eventual cloud storage integration."
-  },
-  {
-    "conv_id":781,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Develop a cross-platform mobile budgeting app starting with Android, supporting offline mode and eventual cloud storage integration."
-  },
-  {
-    "conv_id":782,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to book a flight to London.\nAGENT: What dates are you planning?\nUSER: Mid-July. Also, I want a seat with extra legroom since I'm tall.\nAGENT: Would you like me to look for premium economy?\nUSER: Yes, and I'll also need to bring a guitar in the cabin.\nAGENT: Do you want airlines that are musician-friendly?\nUSER: Exactly, yes."
-  },
-  {
-    "conv_id":782,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a flight booking to London for mid-July with a seat in premium economy that offers extra legroom and allows a guitar in the cabin, prioritizing musician-friendly airlines."
-  },
-  {
-    "conv_id":782,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book a flight to London in mid-July with extra legroom and cabin space for a guitar on a musician-friendly airline."
-  },
-  {
-    "conv_id":783,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to reserve a restaurant for a business lunch.\nAGENT: Do you need private seating or a regular table?\nUSER: Private seating. Also, it should have strong coffee since my client loves it.\nAGENT: Do you also need Wi-Fi?\nUSER: Yes, that's important. And it should be quiet enough for discussion.\nAGENT: Do you have a location in mind?\nUSER: Somewhere near the financial district would be best."
-  },
-  {
-    "conv_id":783,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a reservation for a business lunch with private seating at a restaurant near the financial district, ensuring strong coffee, Wi-Fi, and a quiet atmosphere for discussion."
-  },
-  {
-    "conv_id":783,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Reserve a private seating at a restaurant near the financial district for a business lunch with strong coffee, Wi-Fi, and a quiet atmosphere."
-  },
-  {
-    "conv_id":784,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to improve my sleep.\nAGENT: Are you having trouble falling asleep or staying asleep?\nUSER: Falling asleep mostly. Also, I use my phone late at night.\nAGENT: Would you like tips for reducing screen use?\nUSER: Yes, and maybe some breathing exercises too.\nAGENT: Do you want to try meditation apps?\nUSER: That could work."
-  },
-  {
-    "conv_id":784,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Create a plan to improve sleep by reducing screen use at night, incorporating breathing exercises, and exploring meditation apps."
-  },
-  {
-    "conv_id":784,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Develop a plan to improve sleep by reducing screen use, incorporating breathing exercises, and trying meditation apps."
-  },
-  {
-    "conv_id":785,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm planning to cook an Italian dinner and need some help.\nAGENT: What Italian dish are you thinking of making?\nUSER: I'm not entirely sure yet. Do you have any suggestions?\nAGENT: Are you looking for something quick, or do you have time to spend on cooking?\nUSER: I was thinking of making tiramisu instead, but actually I still want the main course idea first.\nAGENT: Got it. Are you aiming for pasta, risotto, or something else to pair with dessert?\nUSER: Yes, maybe seafood pasta would work, especially since tiramisu will be the sweet finish."
-  },
-  {
-    "conv_id":785,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan an Italian dinner featuring seafood pasta as the main course and tiramisu for dessert."
-  },
-  {
-    "conv_id":785,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Plan an Italian dinner featuring seafood pasta as the main course and tiramisu for dessert."
-  },
-  {
-    "conv_id":786,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm trying to set up a basic web server using Python. Can you help me figure out what I need?\nAGENT: Sure, are you looking to use a specific framework or library for this setup?\nUSER: I'm not sure yet. I want something simple to start with though.\nAGENT: Do you have a particular purpose or type of application in mind for this web server?\nUSER: Actually, I was thinking about learning databases instead\u2014but really just in the context of connecting it to the web server.\nAGENT: Understood. Do you want a lightweight option like SQLite, or something more scalable like PostgreSQL?\nUSER: Let's start lightweight, since it's mainly for testing the server locally."
-  },
-  {
-    "conv_id":786,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a basic web server setup using Python with a focus on simplicity, and incorporate a lightweight database option like SQLite for local testing and learning purposes."
-  },
-  {
-    "conv_id":786,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Set up a basic web server using Python and connect it to a lightweight SQLite database for local testing."
-  },
-  {
-    "conv_id":787,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm looking to book a flight to Paris next month.\nAGENT: Do you have a specific date in mind for your departure?\nUSER: Not really, but I want to be there in time for the Jazz Festival.\nAGENT: Got it. Are you considering a direct flight, or are layovers okay?\nUSER: I might actually need hotel suggestions too\u2014but specifically ones close to the Jazz Festival venue, since that's why I'm flying in.\nAGENT: That makes sense. Do you want me to note accommodations within walking distance?\nUSER: Yes, walking distance would be ideal so I can just book flights around that schedule."
-  },
-  {
-    "conv_id":787,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a flight booking to Paris next month, ensuring arrival in time for the Jazz Festival, and include hotel suggestions within walking distance of the festival venue."
-  },
-  {
-    "conv_id":787,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Plan a trip to Paris next month, including booking a flight and finding hotel accommodations within walking distance of the Jazz Festival venue."
-  },
-  {
-    "conv_id":788,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm looking to reserve a table for dinner, but I haven't decided on the type of cuisine yet.\nAGENT: Could you tell me which date and time you have in mind for the reservation?\nUSER: Ideally this Saturday evening, around 7 PM, but it can be a bit flexible.\nAGENT: Do you have a preference for the area or neighborhood where the restaurant is located?\nUSER: Actually, I was also wondering about nearby parking\u2014since whichever restaurant I choose has to make it convenient for my guests.\nAGENT: So parking is a requirement. Would you also want amenities like outdoor seating or a quiet ambience?\nUSER: Yes, quiet ambience and easy parking are most important for me."
-  },
-  {
-    "conv_id":788,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a dinner reservation for Saturday evening around 7 PM, with flexibility, prioritizing restaurants with convenient parking and a quiet ambience, while the type of cuisine remains undecided."
-  },
-  {
-    "conv_id":788,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Reserve a table for dinner this Saturday evening around 7 PM with a focus on quiet ambience and easy parking."
-  },
-  {
-    "conv_id":789,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to start a new workout routine but don't know where to begin.\nAGENT: Do you have any specific goals you're working towards, like weight loss or muscle gain?\nUSER: I'm looking to improve my stamina mainly, and build some strength.\nAGENT: How much time can you dedicate weekly to your workout routine?\nUSER: I was also thinking of getting my sleep schedule fixed\u2014but mainly because it supports stamina training.\nAGENT: Good point. Do you want to include sleep-tracking in your fitness plan?\nUSER: Yes, that would help me align workouts and recovery properly."
-  },
-  {
-    "conv_id":789,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Create a workout routine focused on improving stamina and building strength, incorporating sleep-tracking to align workouts and recovery, with consideration for the user's available weekly time commitment."
-  },
-  {
-    "conv_id":789,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Develop a workout routine focused on improving stamina and building strength, incorporating sleep-tracking for optimal recovery."
-  },
-  {
-    "conv_id":790,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm planning to prepare a three-course meal for some friends this weekend but need help organizing my menu.\nAGENT: That sounds wonderful! Do you already have specific dishes in mind for each course, or are you looking for suggestions?\nUSER: I have a main dish in mind, roasted chicken, but I'm struggling to choose appropriate starters and desserts.\nAGENT: Roasted chicken is a great choice. Are you considering a specific cuisine or theme for the meal that could help guide the other courses?\nUSER: I'm thinking of something classic, maybe French-inspired. But I also noticed my oven might not be heating evenly.\nAGENT: In that case, it might be safer to choose a dessert that doesn't rely on exact baking temperatures. Are you confident in your appliance's ability to handle the chicken?\nUSER: Yes, I think I can manage the chicken. For the dessert, I was considering something like cr\u00e8me br\u00fbl\u00e9e or a simple tart.\nAGENT: Both of those are excellent choices. Would you prefer something you can partially prepare ahead of time so you can enjoy more of the evening with your guests?\nUSER: Definitely! Since I'll also need to figure out some plating ideas...\nAGENT: Planning the presentation can be as important as the taste. Are you thinking about incorporating seasonal ingredients for color and freshness?\nUSER: Yes, seasonal vegetables for the starter, perhaps. I recently saw a gardening show about spring produce, and it gave me some great inspiration.\nAGENT: Using fresh, seasonal ingredients will definitely elevate your meal. Will your guests have any dietary preferences or restrictions to consider?\nUSER: Not really, they're quite adventurous eaters, but one friend is interested in low-carb options.\nAGENT: Low-carb considerations are a good idea to keep in mind, especially with a lighter starter. Do you have a budget in mind, or are there particular ingredients you'd like to splurge on?\nUSER: I'm focusing on good quality, but I'm flexible as long as the meal impresses. Presentation will play a key role."
-  },
-  {
-    "conv_id":790,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a three-course meal with a French-inspired theme, featuring roasted chicken as the main dish, and select appropriate starters and desserts that accommodate a potentially uneven oven temperature. Consider partially preparing dishes ahead of time to allow more interaction with guests, incorporate seasonal vegetables for the starter, and include low-carb options. Focus on high-quality ingredients and emphasize presentation to impress guests."
-  },
-  {
-    "conv_id":790,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Organize a French-inspired three-course meal menu with roasted chicken as the main dish, incorporating seasonal ingredients and low-carb options, while ensuring the dessert can be prepared ahead of time and considering presentation."
-  },
-  {
-    "conv_id":791,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm trying to write a script to automate my data backups. Can you help me figure out what programming language I should use?\nAGENT: Certainly! Could you clarify what kind of system you're working with? Are there any specific operating systems or environments you need this script to run on?\nUSER: It's for a small business network, mostly Windows machines, but I might need it to run on a couple of Linux servers as well.\nAGENT: That makes sense. Do you have any existing preference or experience with scripting languages such as PowerShell or Bash?\nUSER: I'm somewhat familiar with PowerShell, but open to learning something new if it would be more effective. Speaking of which, I'm also curious about how well these languages handle encryption.\nAGENT: Encryption is definitely important for backups. Are you considering implementing encryption directly within the script, or are you planning to use an external tool or library for that?\nUSER: I'd like to know what's available directly within the languages. Also, I heard something about cloud backups being an option. How difficult is it to integrate with a cloud service?\nAGENT: Integrating with cloud services can vary in complexity depending on the provider and the API they offer. Are you already using a specific cloud service that you're looking to connect with?\nUSER: Not yet, but I'm interested in options that would work seamlessly with the script. I guess this means considering modular design in the script, right?\nAGENT: Correct, modularity can greatly help in maintaining and extending the script. When you mention a modular design, are you thinking of specific modules or components you would prioritize developing first?\nUSER: Definitely focusing on the backup automation initially, then potentially expanding to cloud integration if I see a need for it. Encryption would be a key feature from the start though.\nAGENT: Sounds like a solid plan. Final question\u2014do you need to complete this project by a certain deadline, or do you have some flexibility with the timeline?\nUSER: There's a bit of urgency, but I understand it might take time to ensure everything is robust. I'll likely proceed step-by-step, prioritizing the immediate needs."
-  },
-  {
-    "conv_id":791,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Design a script for automating data backups on a small business network, primarily for Windows machines with potential Linux server compatibility, using a suitable programming language like PowerShell or Bash. Consider encryption capabilities within the language and explore cloud backup integration options, ensuring a modular design to facilitate future expansions. Prioritize backup automation and encryption initially, with a flexible timeline to ensure robustness."
-  },
-  {
-    "conv_id":791,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Design a script to automate data backups for a small business network, primarily using PowerShell, with a focus on encryption and potential cloud integration, ensuring compatibility with both Windows and Linux systems."
-  },
-  {
-    "conv_id":792,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm trying to book a flight to New York for a conference next month.\nAGENT: I can help with that! Do you have a specific departure date and time in mind?\nUSER: I'd prefer to fly out the morning of February 10th, but I have some flexibility.\nAGENT: Morning flights can be popular, especially to New York. Do you need a return flight as well?\nUSER: Yes, I'll be coming back a week later, on the 17th. Ideally, I want to arrive home by evening.\nAGENT: Alright, do you have a preferred airline or is that not a concern?\nUSER: Not particularly, but avoiding layovers would be great. Actually, my frequent flyer points are with Delta, so that might be a plus.\nAGENT: Understood. In terms of budget, is there a price range you're aiming for?\nUSER: Around $500 would be ideal, but I can stretch it a bit if necessary.\nAGENT: Great, and will you need any additional services, like transportation to the airport?\nUSER: That's something I can handle myself. Oh, and I should mention, I plan to bring along some equipment, like a camera.\nAGENT: Got it. Is the camera equipment such that you'd require special checked baggage or priority boarding arrangements?\nUSER: Potentially. It's pretty fragile, so I'd want to ensure it's safely handled.\nAGENT: I see. Is there anything else essential for your trip, maybe seat selection preferences?\nUSER: Yes, an aisle seat would be preferable. And can they bring a vegan meal on board?\nAGENT: Many airlines do offer such meal options. I'll make a note of that. Lastly, any interest in travel insurance for this trip?\nUSER: That's actually a good idea; I think having some travel safety net could be helpful. Let's explore the options for that too."
-  },
-  {
-    "conv_id":792,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a flight booking for a user traveling to New York for a conference, departing on the morning of February 10th and returning on the evening of February 17th. Consider Delta Airlines for potential frequent flyer benefits and prioritize non-stop flights. Aim for a budget around $500, with flexibility. Ensure arrangements for fragile camera equipment, including special checked baggage or priority boarding. Select an aisle seat and request a vegan meal. Explore travel insurance options for added safety."
-  },
-  {
-    "conv_id":792,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book a round-trip flight to New York with Delta, departing on February 10th and returning on February 17th, with a budget around $500, no layovers, an aisle seat, vegan meal, and travel insurance, while ensuring safe handling of fragile camera equipment."
-  },
-  {
-    "conv_id":793,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I'm looking for a nice Italian restaurant for dinner this weekend.\nAGENT: Do you have a preferred area or neighborhood in mind?\nUSER: Yes, I'd like something in the downtown area. Oh, and it would be great if it has a good wine selection.\nAGENT: Certainly! How many people will be dining with you?\nUSER: It will be four of us. Actually, I also need to ensure we can have some quiet time as we might discuss some business.\nAGENT: Understood. Would you prefer a restaurant that offers private dining rooms, or is a quiet table sufficient?\nUSER: A quiet table should be fine. And speaking of discussions, access to good Wi-Fi would be a plus.\nAGENT: That makes sense. Are there any specific types of wines you're hoping to find on the menu?\nUSER: Well, a good selection of both red and white would be ideal. Also, quick question: do you think most places in the area require reservations or are walk-ins okay?\nAGENT: It's usually recommended to have a reservation, especially on the weekend. Do you have a particular time when you'd like to dine?\nUSER: We're thinking around 7:00 PM. And actually, since we'll finish around 9:00 PM, are there places nearby where we could grab a quick dessert and maybe coffee?\nAGENT: That's a great idea. Are you looking for a dessert place with seating, or would a more casual caf\u00e9 work for you?\nUSER: A casual caf\u00e9 is perfect, as long as it's within walking distance of the restaurant."
-  },
-  {
-    "conv_id":793,
-    "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a dinner at a nice Italian restaurant in the downtown area for four people this weekend, ensuring the restaurant has a good wine selection, a quiet table, and access to good Wi-Fi. Make a reservation for 7:00 PM. After dinner, find a casual caf\u00e9 within walking distance for dessert and coffee, with seating available, around 9:00 PM."
-  },
-  {
-    "conv_id":793,
-    "rewrite_type":"advanced_summarizer",
-    "rewrite":"Find a nice Italian restaurant in the downtown area with a good wine selection, quiet table, and Wi-Fi for a party of four at 7:00 PM this weekend, and plan for a nearby casual caf\u00e9 for dessert and coffee afterward."
-  },
-  {
-    "conv_id":794,
-    "rewrite_type":"dummy",
-    "rewrite":"USER: I want to book a flight to Tokyo.\nAGENT: Do you have a preferred airline or time?\nUSER: I need to bring my surfboard also"
-  },
-  {
-    "conv_id":794,
     "rewrite_type":"basic_summarizer",
     "rewrite":"Plan a flight booking to Tokyo, considering the user's need to bring a surfboard and any preferences for airline or time."
   },
   {
-    "conv_id":794,
+    "conv_id":750,
     "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book a flight to Tokyo with accommodation for a surfboard."
+    "rewrite":"Book a flight to Tokyo that accommodates a surfboard."
   },
   {
-    "conv_id":795,
+    "conv_id":751,
     "rewrite_type":"dummy",
-    "rewrite":"USER: I want to reserve a restaurant table for Friday night.\nAGENT: Do you prefer any cuisine?\nUSER: It has to be near the stadium since we\u2019re going to a game."
+    "rewrite":"USER: I want to learn Python.\nAGENT: What kind of projects do you want to start with?\nUSER: I need to analyze sales data in Excel."
   },
   {
-    "conv_id":795,
+    "conv_id":751,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a restaurant reservation near the stadium for Friday night, considering the user's preference for any cuisine."
+    "rewrite":"Plan a Python learning path focused on analyzing sales data in Excel."
   },
   {
-    "conv_id":795,
+    "conv_id":751,
     "rewrite_type":"advanced_summarizer",
-    "rewrite":"Reserve a restaurant table near the stadium for Friday night."
+    "rewrite":"Learn Python to analyze sales data in Excel."
   },
   {
-    "conv_id":796,
+    "conv_id":752,
     "rewrite_type":"dummy",
-    "rewrite":"USER: I want to learn Python.\nAGENT: What kind of projects do you want to start with?\nUSER: I need to analyze sales data in Excel.\nAGENT: Got it, so we'll focus on pandas and Excel integration.\nAGENT: Do you only want to clean and summarize the data, or also create reports?\nUSER: I'd like to generate monthly reports with charts.\nAGENT: Do those reports need to be shared automatically?\nUSER: Yes, emailing them to my manager would be ideal.\nAGENT: In that case, we can add an email automation step.\nUSER: Also, sometimes we need to combine data from multiple sheets.\nAGENT: No problem, pandas can merge data across sheets easily.\nUSER: Perfect\u2014that's exactly what I was hoping for."
+    "rewrite":"USER: I need some help figuring out what to cook for dinner tonight.\nAGENT: Are there any specific ingredients you have on hand or dietary restrictions to consider?\nUSER: I want to make sure it's something quick because I still need to finish a work report.\nAGENT: Do you have a particular cuisine in mind that fits both being quick and convenient while working on your report?\nUSER: Maybe something Italian, but it needs to be easy enough to not distract me from my tasks."
   },
   {
-    "conv_id":796,
+    "conv_id":752,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a Python learning path focusing on pandas and Excel integration to analyze sales data, generate monthly reports with charts, automate email sharing, and merge data from multiple sheets."
+    "rewrite":"Plan a quick and easy Italian dinner that allows for minimal distraction from work tasks."
   },
   {
-    "conv_id":796,
+    "conv_id":752,
     "rewrite_type":"advanced_summarizer",
-    "rewrite":"Develop a Python learning plan focused on using pandas for analyzing sales data in Excel, generating monthly reports with charts, automating email sharing, and merging data from multiple sheets."
+    "rewrite":"Plan a quick and easy Italian dinner that allows for minimal distraction from work tasks."
+  },
+  {
+    "conv_id":753,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I need help planning a balanced diet for weight loss.\nAGENT: Do you know if there are any specific foods you need to avoid?\nUSER: Mostly processed foods. I need to look good for my brother's wedding."
+  },
+  {
+    "conv_id":753,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a balanced diet for weight loss that avoids processed foods to help the user look good for their brother's wedding."
+  },
+  {
+    "conv_id":753,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Plan a balanced diet for weight loss that avoids processed foods for an upcoming wedding."
+  },
+  {
+    "conv_id":754,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I'm looking for a restaurant to host a dinner meeting.\nAGENT: Do you have a preference for cuisine or location?\nUSER: It should cater to vegetarians, but I'll also need a projector for a presentation.\nAGENT: Understood! Do you have a location preference?\nUSER: Close to our main office downtown. That would be ideal."
+  },
+  {
+    "conv_id":754,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a dinner meeting at a restaurant near the main office downtown that caters to vegetarians and provides a projector for presentations."
+  },
+  {
+    "conv_id":754,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Find a downtown restaurant near the main office that caters to vegetarians and provides a projector for a dinner meeting."
+  },
+  {
+    "conv_id":755,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I need to book a flight to Chicago.\nAGENT: Do you have specific dates in mind?\nUSER: Yes, early April.\nAGENT: Okay, do you have an airline preference?\nUSER: Not really, but I want the shortest travel time possible.\nAGENT: Would you prefer direct flights only then?\nUSER: Yes. Also, I am vegan and allergic to mushrooms."
+  },
+  {
+    "conv_id":755,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a flight booking to Chicago in early April with direct flights only, ensuring the shortest travel time and accommodating a vegan meal preference without mushrooms."
+  },
+  {
+    "conv_id":755,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Book a direct flight to Chicago in early April with vegan meal options and no mushrooms, prioritizing the shortest travel time."
+  },
+  {
+    "conv_id":756,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I'm looking for a restaurant for an anniversary dinner.\nAGENT: Do you have a preference for cuisine?\nUSER: Something fancy. Also, they need to have a piano since I'd like to play a song.\nAGENT: So live music or at least a piano on site?\nUSER: Exactly. And my wife prefers jazz music.\nAGENT: Do you have any preferences for location?\nUSER: Yes, in the city downtown."
+  },
+  {
+    "conv_id":756,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Identify a fancy restaurant in downtown city that offers live jazz music or has a piano available for an anniversary dinner."
+  },
+  {
+    "conv_id":756,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Find a fancy downtown restaurant with a piano and jazz music for an anniversary dinner."
+  },
+  {
+    "conv_id":757,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I want to learn SQL.\nAGENT: Do you want to focus on queries, database design, or something else?\nUSER: Queries first. Also, I'd like to practice with real-world data.\nAGENT: Would you like me to suggest public datasets?\nUSER: I work in garment sales so something similar.\nAGENT: Do you deal in all types of garments?\nUSER: No only few specific items."
+  },
+  {
+    "conv_id":757,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a learning path for SQL focusing on queries with practice using real-world datasets related to specific items in garment sales."
+  },
+  {
+    "conv_id":757,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Create a plan to learn SQL with a focus on queries using real-world datasets related to specific items in garment sales."
+  },
+  {
+    "conv_id":758,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I want to learn how to make sushi at home.\nAGENT: Do you already have sushi rice and seaweed sheets?\nUSER: Yes I do\nAGENT: Great! Do you plan to use raw fish?\nUSER: I need to improve my knife skills for that.\nAGENT: Would you like recommendations for vegetarian fillings instead?\nUSER: Yes, especially ones that are colorful for presentation."
+  },
+  {
+    "conv_id":758,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a sushi-making session at home with a focus on using sushi rice and seaweed sheets, incorporating colorful vegetarian fillings for improved presentation, and consider enhancing knife skills for future use of raw fish."
+  },
+  {
+    "conv_id":758,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Learn how to make sushi at home using vegetarian fillings that are colorful for presentation."
+  },
+  {
+    "conv_id":759,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I want to start running to improve my fitness.\nAGENT: Do you already have a running schedule in mind?\nUSER: Not yet. Also, I have a knee injury from last week.\nAGENT: Would you like me to suggest warm-up routines and strength exercises to help with that?\nUSER: Yes, and I'd also like advice on diet since I'm aiming to gain muscle.\nAGENT: Got it. Are you interested in a structured meal plan or general guidelines?\nUSER: General guidelines should be fine\u2014I don't want something too restrictive."
+  },
+  {
+    "conv_id":759,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Create a running plan that accommodates a knee injury, includes warm-up routines and strength exercises, and provide general dietary guidelines for muscle gain."
+  },
+  {
+    "conv_id":759,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Create a running plan with warm-up routines and strength exercises for knee injury recovery, along with general dietary guidelines for muscle gain."
+  },
+  {
+    "conv_id":760,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I'm trying to book a flight to New York for a conference next month.\nAGENT: I can help with that! Do you have a specific departure date and time in mind?\nUSER: I'd prefer to fly out the morning of February 10th, but I have some flexibility.\nAGENT: Morning flights can be popular, especially to New York. Do you need a return flight as well?\nUSER: Yes, I'll be coming back a week later, on the 17th. Ideally, I want to arrive home by evening.\nAGENT: Alright, do you have a preferred airline or is that not a concern?\nUSER: Not particularly, but avoiding layovers would be great. Actually, my frequent flyer points are with Delta, so that might be a plus.\nAGENT: Understood. In terms of budget, is there a price range you're aiming for?\nUSER: Around $500 would be ideal, but I can stretch it a bit if necessary.\nAGENT: Great, and will you need any additional services, like transportation to the airport?\nUSER: That's something I can handle myself. Oh, and I should mention, I plan to bring along some equipment, like a camera.\nAGENT: Got it. Is the camera equipment such that you'd require special checked baggage or priority boarding arrangements?\nUSER: Potentially. It's pretty fragile, so I'd want to ensure it's safely handled.\nAGENT: I see. Is there anything else essential for your trip, maybe seat selection preferences?\nUSER: Yes, an aisle seat would be preferable. And can they bring a vegan meal on board?\nAGENT: Many airlines do offer such meal options. I'll make a note of that. Lastly, any interest in travel insurance for this trip?\nUSER: That's actually a good idea; I think having some safety net could be helpful. Let's explore the options for that too."
+  },
+  {
+    "conv_id":760,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a flight booking for a user traveling to New York for a conference, departing on the morning of February 10th and returning on February 17th, with a preference for Delta Airlines and a budget around $500. Ensure the flights are non-stop, accommodate fragile camera equipment, provide an aisle seat, and include a vegan meal option. Explore travel insurance options and note that the user will handle their own transportation to the airport."
+  },
+  {
+    "conv_id":760,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Book a round-trip flight to New York from February 10th to 17th with Delta, prioritizing morning departure, no layovers, aisle seat, vegan meal, and travel insurance, while considering a $500 budget and handling fragile camera equipment."
+  },
+  {
+    "conv_id":761,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I'm looking for a nice Italian restaurant for dinner this weekend.\nAGENT: Do you have a preferred area or neighborhood in mind?\nUSER: Yes, I'd like something in the downtown area. Oh, and it would be great if it has a good wine selection.\nAGENT: Certainly! How many people will be dining with you?\nUSER: It will be four of us. Actually, I also need to ensure we can have some quiet time as we might discuss some business.\nAGENT: Understood. Would you prefer a restaurant that offers private dining rooms, or is a quiet table sufficient?\nUSER: A quiet table should be fine. And speaking of discussions, access to good Wi-Fi would be a plus.\nAGENT: That makes sense. Are there any specific types of wines you're hoping to find on the menu?\nUSER: Well, a good selection of both red and white would be ideal. Also, quick question: do you think most places in the area require reservations or are walk-ins okay?\nAGENT: It's usually recommended to have a reservation, especially on the weekend. Do you have a particular time when you'd like to dine?\nUSER: We're thinking around 7:00 PM. And actually, since we'll finish around 9:00 PM, are there places nearby where we could grab a quick dessert and maybe coffee?\nAGENT: That's a great idea. Are you looking for a dessert place with seating, or would a more casual caf\u00e9 work for you?\nUSER: A casual caf\u00e9 is perfect, as long as it's within walking distance of the restaurant."
+  },
+  {
+    "conv_id":761,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a dinner at a nice Italian restaurant in the downtown area with a good wine selection for four people, ensuring a quiet table and access to good Wi-Fi for business discussions. Consider making a reservation for around 7:00 PM and identify nearby casual caf\u00e9s within walking distance for dessert and coffee after dinner."
+  },
+  {
+    "conv_id":761,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Plan a dinner for four at a quiet Italian restaurant in the downtown area with a good wine selection and Wi-Fi access, around 7:00 PM this weekend, and find a nearby casual caf\u00e9 for dessert and coffee afterward."
+  },
+  {
+    "conv_id":762,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I'm planning to prepare a three-course meal for some friends this weekend but need help organizing my menu.\nAGENT: That sounds wonderful! Do you already have specific dishes in mind for each course, or are you looking for suggestions?\nUSER: I have a main dish in mind, roasted chicken, but I'm struggling to choose appropriate starters and desserts.\nAGENT: Roasted chicken is a great choice. Are you considering a specific cuisine or theme for the meal that could help guide the other courses?\nUSER: I'm thinking of something classic, maybe French-inspired. But I also noticed my oven might not be heating evenly.\nAGENT: In that case, it might be safer to choose a dessert that doesn't rely on exact baking temperatures. Are you confident in your appliance's ability to handle the chicken?\nUSER: Yes, I think I can manage the chicken. For the dessert, I was considering something like cr\u00e8me br\u00fbl\u00e9e or a simple tart.\nAGENT: Both of those are excellent choices. Would you prefer something you can partially prepare ahead of time so you can enjoy more of the evening with your guests?\nUSER: Definitely! Since I'll also need to figure out some plating ideas...\nAGENT: Planning the presentation can be as important as the taste. Are you thinking about incorporating seasonal ingredients for color and freshness?\nUSER: Yes, seasonal vegetables for the starter, perhaps. I recently saw a gardening show about spring produce, and it gave me some great inspiration.\nAGENT: Using fresh, seasonal ingredients will definitely elevate your meal. Will your guests have any dietary preferences or restrictions to consider?\nUSER: Not really, they're quite adventurous eaters, but one friend is interested in low-carb options.\nAGENT: Low-carb considerations are a good idea to keep in mind, especially with a lighter starter. Do you have a budget in mind, or are there particular ingredients you'd like to splurge on?\nUSER: I'm focusing on good quality, but I'm flexible as long as the meal impresses. Presentation will play a key role."
+  },
+  {
+    "conv_id":762,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a three-course meal with a French-inspired theme, featuring roasted chicken as the main dish, and select starters and desserts that do not rely on precise oven temperatures. Consider partially preparing dishes ahead of time to allow more interaction with guests. Incorporate seasonal vegetables for the starter and ensure options are available for low-carb preferences. Focus on high-quality ingredients and emphasize presentation to impress guests."
+  },
+  {
+    "conv_id":762,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Plan a French-inspired three-course meal with roasted chicken as the main dish, incorporating seasonal ingredients and low-carb options, while ensuring the dessert does not require precise oven temperatures and considering presentation and partial preparation ahead of time."
+  },
+  {
+    "conv_id":763,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I'm trying to write a script to automate my data backups. Can you help me figure out what programming language I should use?\nAGENT: Certainly! Could you clarify what kind of system you're working with? Are there any specific operating systems or environments you need this script to run on?\nUSER: It's for a small business network, mostly Windows machines, but I might need it to run on a couple of Linux servers as well.\nAGENT: That makes sense. Do you have any existing preference or experience with scripting languages such as PowerShell or Bash?\nUSER: I'm somewhat familiar with PowerShell, but open to learning something new if it would be more effective. Speaking of which, I'm also curious about how well these languages handle encryption.\nAGENT: Encryption is definitely important for backups. Are you considering implementing encryption directly within the script, or are you planning to use an external tool or library for that?\nUSER: I'd like to know what's available directly within the languages. Also, I heard something about cloud backups being an option. How difficult is it to integrate with a cloud service?\nAGENT: Integrating with cloud services can vary in complexity depending on the provider and the API they offer. Are you already using a specific cloud service that you're looking to connect with?\nUSER: Not yet, but I'm interested in options that would work seamlessly with the script. I guess this means considering modular design in the script, right?\nAGENT: Correct, modularity can greatly help in maintaining and extending the script. When you mention a modular design, are you thinking of specific modules or components you would prioritize developing first?\nUSER: Definitely focusing on the backup automation initially, then potentially expanding to cloud integration if I see a need for it. Encryption would be a key feature from the start though.\nAGENT: Sounds like a solid plan. Final question\u2014do you need to complete this project by a certain deadline, or do you have some flexibility with the timeline?\nUSER: There's a bit of urgency, but I understand it might take time to ensure everything is robust. I'll likely proceed step-by-step, prioritizing the immediate needs."
+  },
+  {
+    "conv_id":763,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Design a script for automating data backups on a small business network, primarily for Windows machines with potential Linux server compatibility, using a suitable programming language like PowerShell or Bash. Consider encryption capabilities within the language and explore cloud backup integration options, ensuring a modular design to facilitate future expansions. Prioritize backup automation and encryption initially, with a flexible timeline to ensure robustness."
+  },
+  {
+    "conv_id":763,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Develop a script to automate data backups for a small business network, focusing on Windows and Linux compatibility, encryption, and potential cloud integration, using a suitable programming language."
+  },
+  {
+    "conv_id":764,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I want to start eating healthier.\nAGENT: Are you thinking of following a specific diet plan?\nUSER: Yes, but I also need meals that won't spike my blood sugar.\nAGENT: Okay, then a balanced low-GI diet would be a good fit.\nUSER: Does that mean I need to cut out bread completely?\nAGENT: Not at all\u2014you can still have whole grain or sourdough bread, which have lower glycemic impact.\nUSER: What about fruits? I've heard some can be bad for blood sugar.\nAGENT: That's true, but berries, apples, and pears are generally good options, while tropical fruits can spike sugar more.\nUSER: Should I focus on counting calories or carbs?\nAGENT: For blood sugar management, focusing on carb quality and portion size is more important than strict calorie counting.\nUSER: This is primarily to help me with some energy and not feel tired through the day"
+  },
+  {
+    "conv_id":764,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a balanced low-GI diet that includes whole grain or sourdough bread and focuses on carb quality and portion size, incorporating fruits like berries, apples, and pears to help maintain energy levels and manage blood sugar without strict calorie counting."
+  },
+  {
+    "conv_id":764,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Plan a balanced low-GI diet focusing on carb quality and portion size to manage blood sugar and improve energy levels."
+  },
+  {
+    "conv_id":765,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I need to book a flight\nAGENT: Do you have dates in mind?\nUSER: It has to be before my visa expires."
+  },
+  {
+    "conv_id":765,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a flight booking for the user with consideration of their visa expiration date."
+  },
+  {
+    "conv_id":765,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Book a flight before the user's visa expires."
+  },
+  {
+    "conv_id":766,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I need to get better at Python\nAGENT: Do you want to focus on data science, web dev, or automation?\nUSER: My work keeps giving me messy spreadsheets.\nAGENT: Then automation might help you clean them up.\nUSER: Yes, that\u2019s exactly what I want."
+  },
+  {
+    "conv_id":766,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a learning path for Python automation to help clean up messy spreadsheets."
+  },
+  {
+    "conv_id":766,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Improve Python skills for automating the cleaning of messy spreadsheets."
+  },
+  {
+    "conv_id":767,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I want to go out for dinner\nAGENT: Any cuisine preference?\nUSER: I\u2019ve been craving something spicy."
+  },
+  {
+    "conv_id":767,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a dinner outing with a focus on spicy cuisine options."
+  },
+  {
+    "conv_id":767,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Plan a dinner outing to a restaurant that serves spicy cuisine."
+  },
+  {
+    "conv_id":768,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I want to eat healthier\nAGENT: Are you considering a specific diet?\nUSER: My doctor told me to cut back on sugar.\nAGENT: Then low-sugar recipes might help.\nUSER: Yes, but I don\u2019t want to give up desserts completely."
+  },
+  {
+    "conv_id":768,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Create a plan for incorporating low-sugar recipes into a diet while still including occasional desserts."
+  },
+  {
+    "conv_id":768,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Create a plan to incorporate low-sugar desserts into a healthier diet."
+  },
+  {
+    "conv_id":769,
+    "rewrite_type":"dummy",
+    "rewrite":"USER: I want to bake bread\nAGENT: Great, do you have a type in mind?\nUSER: Last time mine turned out too dense, so I want something fluffier."
+  },
+  {
+    "conv_id":769,
+    "rewrite_type":"basic_summarizer",
+    "rewrite":"Plan a baking session for a fluffy bread recipe, considering the user's previous experience with dense bread."
+  },
+  {
+    "conv_id":769,
+    "rewrite_type":"advanced_summarizer",
+    "rewrite":"Bake a fluffy bread."
   }
 ]
