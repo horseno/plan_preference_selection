@@ -10,13 +10,13 @@ app = Flask(__name__)
 ### modify input data file as needed
 
 DATA_FILE = os.environ.get('DATA_FILE', 'input/pilot.csv')
-SHOW_REWRITE = True
+SHOW_REWRITE = False
 
 input_name = os.path.basename(DATA_FILE).split('.')[0]
 
 user_name = os.environ.get("USER", os.environ.get("USERNAME"))
 
-SELECTIONS_FILE = f"aug_{input_name}_selections_{user_name}.csv"
+SELECTIONS_FILE = f"{input_name}_selections_{user_name}.csv"
 
 out_path = "output"
 
