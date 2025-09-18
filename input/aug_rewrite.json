@@ -82,7 +82,7 @@
   {
     "conv_id":755,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a flight booking to Chicago in early April with direct flights only, ensuring the shortest travel time and accommodating a vegan meal preference without mushrooms."
+    "rewrite":"Plan a flight booking to Chicago in early April with a preference for direct flights and the shortest travel time, ensuring vegan meal options without mushrooms."
   },
   {
     "conv_id":755,
@@ -97,7 +97,7 @@
   {
     "conv_id":756,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Identify a fancy restaurant in downtown city that offers live jazz music or has a piano available for an anniversary dinner."
+    "rewrite":"Plan a search for a fancy restaurant in the city downtown that has a piano on site and offers jazz music for an anniversary dinner."
   },
   {
     "conv_id":756,
@@ -112,12 +112,12 @@
   {
     "conv_id":757,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a learning path for SQL focusing on queries with practice using real-world datasets related to specific items in garment sales."
+    "rewrite":"Create a learning plan for SQL focusing on queries, incorporating practice with real-world datasets related to specific items in garment sales."
   },
   {
     "conv_id":757,
     "rewrite_type":"advanced_summarizer",
-    "rewrite":"Create a plan to learn SQL with a focus on queries using real-world datasets related to specific items in garment sales."
+    "rewrite":"Create a plan to learn SQL focusing on queries and practice with real-world garment sales data."
   },
   {
     "conv_id":758,
@@ -127,12 +127,12 @@
   {
     "conv_id":758,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a sushi-making session at home with a focus on using sushi rice and seaweed sheets, incorporating colorful vegetarian fillings for improved presentation, and consider enhancing knife skills for future use of raw fish."
+    "rewrite":"Plan a sushi-making session at home, ensuring the availability of sushi rice and seaweed sheets, and consider using vegetarian fillings that are colorful for presentation, as the user is interested in improving knife skills before using raw fish."
   },
   {
     "conv_id":758,
     "rewrite_type":"advanced_summarizer",
-    "rewrite":"Learn how to make sushi at home using vegetarian fillings that are colorful for presentation."
+    "rewrite":"Learn how to make sushi at home with colorful vegetarian fillings."
   },
   {
     "conv_id":759,
@@ -157,12 +157,12 @@
   {
     "conv_id":760,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a flight booking for a user traveling to New York for a conference, departing on the morning of February 10th and returning on February 17th, with a preference for Delta Airlines and a budget around $500. Ensure the flights are non-stop, accommodate fragile camera equipment, provide an aisle seat, and include a vegan meal option. Explore travel insurance options and note that the user will handle their own transportation to the airport."
+    "rewrite":"Plan a flight booking for a user traveling to New York for a conference, departing on the morning of February 10th and returning on February 17th, with a preference for Delta Airlines and a budget around $500. Ensure no layovers, accommodate fragile camera equipment, select an aisle seat, request a vegan meal, and explore travel insurance options."
   },
   {
     "conv_id":760,
     "rewrite_type":"advanced_summarizer",
-    "rewrite":"Book a round-trip flight to New York from February 10th to 17th with Delta, prioritizing morning departure, no layovers, aisle seat, vegan meal, and travel insurance, while considering a $500 budget and handling fragile camera equipment."
+    "rewrite":"Book a round-trip flight to New York with Delta for a conference, departing on February 10th and returning on February 17th, with preferences for morning departure, no layovers, aisle seating, vegan meal, and travel insurance, while considering a budget of around $500 and handling fragile camera equipment."
   },
   {
     "conv_id":761,
@@ -172,12 +172,12 @@
   {
     "conv_id":761,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a dinner at a nice Italian restaurant in the downtown area with a good wine selection for four people, ensuring a quiet table and access to good Wi-Fi for business discussions. Consider making a reservation for around 7:00 PM and identify nearby casual caf\u00e9s within walking distance for dessert and coffee after dinner."
+    "rewrite":"Plan a dinner at a nice Italian restaurant in the downtown area with a good wine selection for four people, ensuring a quiet table and access to good Wi-Fi for business discussions. Ensure the restaurant offers a good selection of both red and white wines and make a reservation for 7:00 PM. Additionally, identify a casual caf\u00e9 within walking distance for dessert and coffee around 9:00 PM."
   },
   {
     "conv_id":761,
     "rewrite_type":"advanced_summarizer",
-    "rewrite":"Plan a dinner for four at a quiet Italian restaurant in the downtown area with a good wine selection and Wi-Fi access, around 7:00 PM this weekend, and find a nearby casual caf\u00e9 for dessert and coffee afterward."
+    "rewrite":"Plan a dinner for four at a quiet Italian restaurant in the downtown area with a good wine selection and Wi-Fi access around 7:00 PM this weekend, and find a nearby casual caf\u00e9 for dessert and coffee afterward."
   },
   {
     "conv_id":762,
@@ -187,7 +187,7 @@
   {
     "conv_id":762,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a three-course meal with a French-inspired theme, featuring roasted chicken as the main dish, and select starters and desserts that do not rely on precise oven temperatures. Consider partially preparing dishes ahead of time to allow more interaction with guests. Incorporate seasonal vegetables for the starter and ensure options are available for low-carb preferences. Focus on high-quality ingredients and emphasize presentation to impress guests."
+    "rewrite":"Plan a three-course meal with a French-inspired theme, featuring roasted chicken as the main dish, and select starters and desserts that accommodate an uneven oven temperature. Consider partially preparing dishes ahead of time to allow more interaction with guests. Incorporate fresh, seasonal ingredients for color and freshness, and include low-carb options for one guest. Focus on high-quality ingredients and impressive presentation."
   },
   {
     "conv_id":762,
@@ -202,7 +202,7 @@
   {
     "conv_id":763,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Design a script for automating data backups on a small business network, primarily for Windows machines with potential Linux server compatibility, using a suitable programming language like PowerShell or Bash. Consider encryption capabilities within the language and explore cloud backup integration options, ensuring a modular design to facilitate future expansions. Prioritize backup automation and encryption initially, with a flexible timeline to ensure robustness."
+    "rewrite":"Design a script for automating data backups on a small business network, primarily for Windows machines with potential Linux server compatibility. Consider using PowerShell due to the user's familiarity, but remain open to other effective languages. Evaluate the encryption capabilities within the scripting languages and explore cloud backup integration options. Plan for a modular script design, focusing initially on backup automation and encryption, with potential future expansion to include cloud integration. Prioritize immediate needs while maintaining flexibility in the timeline."
   },
   {
     "conv_id":763,
@@ -217,7 +217,7 @@
   {
     "conv_id":764,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a balanced low-GI diet that includes whole grain or sourdough bread and focuses on carb quality and portion size, incorporating fruits like berries, apples, and pears to help maintain energy levels and manage blood sugar without strict calorie counting."
+    "rewrite":"Develop a plan for a balanced low-GI diet that includes whole grain or sourdough bread and focuses on carb quality and portion size, incorporating fruits like berries, apples, and pears to help maintain energy levels and manage blood sugar."
   },
   {
     "conv_id":764,
@@ -247,7 +247,7 @@
   {
     "conv_id":766,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a learning path for Python automation to help clean up messy spreadsheets."
+    "rewrite":"Plan a learning path for the user to improve Python skills with a focus on automation to handle messy spreadsheets."
   },
   {
     "conv_id":766,
@@ -292,7 +292,7 @@
   {
     "conv_id":769,
     "rewrite_type":"basic_summarizer",
-    "rewrite":"Plan a baking session for a fluffy bread recipe, considering the user's previous experience with dense bread."
+    "rewrite":"Plan a baking session for a user who wants to make a fluffier type of bread, as their previous attempt resulted in a dense loaf."
   },
   {
     "conv_id":769,
